@@ -2,3 +2,5 @@
 label: Blog post
 hide_body: false
 fields: []
+pages:
+- content/posts/test-post.md
