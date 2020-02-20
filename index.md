@@ -1,24 +1,21 @@
 ---
 layout: layout.liquid
+pagination:
+  data: collections.post
+  size: 10
+  reverse: true
+  alias: posts
 ---
 
-# Aunnnn
+## All Posts
 
-Welcome to aunnnn *website*!
+Total: {{ posts.length }}
 
-This is python:
-
-```python
-def helloworld(x):
-    print(x)
-```
-
-This is Swift:
-```swift
-func helloWorld(x: Int) {
-    for i in 1...10 {
-        println("i is \(i)")
-    }
-}
-```
-
+{% for post in posts %}
+  <article>
+    <h1>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </h1>
+    <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+  </article>
+{% endfor %}

@@ -5,10 +5,13 @@ body {
     color: white;
 }
 
-
 html {
     --text-color-normal: #0a244d;
     --text-color-light: #8cabd9;
+}
+
+a {
+    color: gray;
 }
 
 html[data-theme='dark'] {
