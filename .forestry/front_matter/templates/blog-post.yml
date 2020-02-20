@@ -7,5 +7,3 @@ fields:
   config:
     required: false
   label: Header
-pages:
-- content/posts/test-post.md
