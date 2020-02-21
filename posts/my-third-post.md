@@ -8,3 +8,5 @@ layout: layout.liquid
 
 ---
 This is my third post to test if the front matter works.
+
+It works!
