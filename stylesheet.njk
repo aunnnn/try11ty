@@ -1,4 +1,11 @@
 ---
 permalink: "css/index.css"
 ---
+{# 
+    This is a hack to output the content of '_includes/css/index.css' to '_site/css/index.css'
+    so that it passes through Transforms for CSS minifiers.
+
+    Currently there seems to be no way to apply transforms on passthrough copy folders
+    https://github.com/11ty/eleventy/issues/344
+#}
 {% include "css/index.css" %}
