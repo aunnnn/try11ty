@@ -22,7 +22,7 @@ fields:
   label: Tags
 - name: layout
   type: select
-  default: ''
+  default: layout.liquid
   config:
     required: false
     options:
