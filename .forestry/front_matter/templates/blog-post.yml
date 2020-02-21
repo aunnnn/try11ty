@@ -20,5 +20,17 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
 pages:
 - posts/my-third-post.md
