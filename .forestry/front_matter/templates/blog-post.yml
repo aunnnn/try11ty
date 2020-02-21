@@ -22,10 +22,11 @@ fields:
   label: Tags
 - name: layout
   type: select
-  default: []
+  default: ''
   config:
     required: false
-    options: []
+    options:
+    - layout.liquid
     source:
       type: simple
       section: 
