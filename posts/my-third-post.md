@@ -12,3 +12,6 @@ This is my third post to test if the front matter works.
 It works!
 
 you know?
+
+    def test_my_code(num):
+    	print(num, "should work")
